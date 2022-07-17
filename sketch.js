@@ -28,7 +28,7 @@ path.velocityY = 4;
 
 
 //criar menino correndo 
-boy = createSprite(70,580,20,20);
+boy = createSprite(70, height/2,20,20);
 boy.addAnimation("SahilRunning",boyImg);
 boy.scale=0.08;
   
@@ -107,7 +107,7 @@ function createCash() {
   cash.addImage(cashImg);
   cash.scale=0.12;
   cash.velocityY = 3;
-  cash.lifetime = 200;
+  cash.lifetime = 700;
   cashG.add(cash);
   }
 }
@@ -118,7 +118,7 @@ function createDiamonds() {
   diamonds.addImage(diamondsImg);
   diamonds.scale=0.03;
   diamonds.velocityY = 3;
-  diamonds.lifetime = 200;
+  diamonds.lifetime = 700;
   diamondsG.add(diamonds);
 }
 }
@@ -129,7 +129,7 @@ function createJwellery() {
   jwellery.addImage(jwelleryImg);
   jwellery.scale=0.13;
   jwellery.velocityY = 3;
-  jwellery.lifetime = 200;
+  jwellery.lifetime = 700;
   jwelleryG.add(jwellery);
   }
 }
@@ -140,7 +140,7 @@ function createSword(){
   sword.addImage(swordImg);
   sword.scale=0.1;
   sword.velocityY = 3;
-  sword.lifetime = 200;
+  sword.lifetime = 700;
   swordGroup.add(sword);
   }
 }
